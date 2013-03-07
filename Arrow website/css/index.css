@@ -1,3 +1,8 @@
+.hover:hover {
+background: url(../images/productbox.png) no-repeat;
+}
+
+
 @font-face {
   font-family: 'RefreshMonoBold';
   src: url("/fonts/refreshmono-bold-webfont.eot");
@@ -462,7 +467,7 @@ a {
 	font-family: 'GibsonRegular';
 	font-size: 1.5em;
 	line-height: 1.3333333em;
-	background: rgba(0, 0, 0, 0.6);
+	/*background: rgba(0, 0, 0, 0.6);*/
 	
 	
 	position: absolute;
