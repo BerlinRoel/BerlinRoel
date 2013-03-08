@@ -463,7 +463,7 @@ a {
 	-o-transition: opacity .2s ease-in-out;
 	-ms-transition: opacity .2s ease-in-out;
 	transition: opacity .2s ease-in-out;
-	color: #fff;
+	/*color: #fff;*/
 	font-family: 'GibsonRegular';
 	font-size: 1.5em;
 	line-height: 1.3333333em;
