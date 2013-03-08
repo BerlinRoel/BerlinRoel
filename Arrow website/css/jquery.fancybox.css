@@ -43,6 +43,7 @@
 	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 			overflow: hidden;
+	background: url(../images1/CataloguePopUpBox.png) no-repeat;		
 }
 
 .fancybox-outer, .fancybox-inner {

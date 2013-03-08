@@ -58,11 +58,11 @@
 			margin  : 20,
 
 			width     : 814,
-			height    : 680,
+			height    : 700,
 			minWidth  : 814,
-			minHeight : 680,
+			minHeight : 700,
 			maxWidth  : 814,
-			maxHeight : 680,
+			maxHeight : 700,
 
 			autoSize   : true,
 			autoHeight : false,
@@ -1941,7 +1941,7 @@
 						$("div.fancybox-skin").css("width", "814px");
 						$("div.fancybox-skin").css("height", "680px");
 						$("div.fancybox-outer").css("width", "814px");
-						$("div.fancybox-outer").css("height", "680px");
+						$("div.fancybox-outer").css("height", "700px");
 						$("div.fancybox-inner").css("width", "814px");
 						$("div.fancybox-inner").css("height", "680px");
 					}
