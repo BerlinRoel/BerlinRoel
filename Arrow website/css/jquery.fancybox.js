@@ -58,11 +58,11 @@
 			margin  : 20,
 
 			width     : 814,
-			height    : 700,
+			height    : 725,
 			minWidth  : 814,
-			minHeight : 700,
+			minHeight : 725,
 			maxWidth  : 814,
-			maxHeight : 700,
+			maxHeight : 725,
 
 			autoSize   : true,
 			autoHeight : false,
