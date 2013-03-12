@@ -1,0 +1,153 @@
+#mommy{
+	border:0px solid blue;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	width:1200px;
+	height:170px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+	font-family: "Calibri";
+	font-size: 12px;
+	color: #7c5252;
+	padding:20px;
+}
+#kid1{
+	border: 0px solid red;
+	background: ;
+	padding: 10px;
+	margin:0px;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	width:570px;
+	height:150px;
+}
+#kid2{
+	border: 0px solid red;
+	background:;
+	padding-top: 80px;
+	-webkit-box-flex: 0;
+	-moz-box-flex: 0;
+	width:50px;
+	height:50px;
+}
+#kid3{
+	border: 0px solid red;
+	background:;
+	padding-top: 83px;
+	-webkit-box-flex: 0;
+	-moz-box-flex: 0;
+	width:200px;
+	height:50px;
+}
+#kid4{
+	border: 0px solid red;
+	background:;
+	padding-top: 50px;
+	margin-right: -50px;
+	-webkit-box-flex: 0;
+	-moz-box-flex: 0;
+	width:420px;
+	height:50px;
+}
+#children{
+	border:0px solid blue;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	width:1200px;
+	height:110px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#ecovative{
+	border:0px solid blue;
+	display:-webkit-box;
+	padding-top: 50px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 250px;
+	width:450px;
+	height:50px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#ecovative2{
+	border:0px solid blue;
+	display:-webkit-box;
+	padding-top: 50px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 50px;
+	width:600px;
+	height:40px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#children2{
+	border:0px solid blue;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	width:1200px;
+	height:610px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#triple{
+	border:0px solid blue;
+	display:-webkit-box;
+	padding-top: 80px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: ;
+	width:90px;
+	height:400px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#savewater{
+	border:0px solid blue;
+	display:-webkit-box;
+	padding-top: ;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 200px;
+	width:300px;
+	height:300px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#saveresources{
+	border:0px solid blue;
+	display:-webkit-box;
+	padding-top: ;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 0px;
+	width:300px;
+	height:300px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#saveearth{
+	border:0px solid blue;
+	display:-webkit-box;
+	padding-top: ;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 0px;
+	width:300px;
+	height:300px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#grayswipe{
+	margin-left: 90px;
+}
+#copyright {
+	float:left;
+}
+#designby {
+	float:right;
+}
