@@ -1,11 +1,11 @@
 #mommy{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	width:1200px;
 	height:170px;
-	margin-left: 160px;
+	margin-left: 120px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 	font-family: "Calibri";
@@ -15,17 +15,17 @@
 	word-spacing: 3px;
 }
 #kid1{
-	border: 0px solid red;
+	border: 1px solid red;
 	background: ;
-	padding: 5px;
-	margin-left:5px;
+	padding: 0px;
+	margin-left:0px;
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
 	width:550px;
 	height:150px;
 }
 #kid2{
-	border: 0px solid red;
+	border: 1px solid red;
 	background:;
 	padding-top: 80px;
 	-webkit-box-flex: 0;
@@ -34,39 +34,39 @@
 	height:50px;
 }
 #kid3{
-	border: 0px solid red;
+	border: 1px solid red;
 	background:;
-	padding-top: 83px;
+	padding-top: 81px;
 	-webkit-box-flex: 0;
 	-moz-box-flex: 0;
-	width:265px;
+	width:375px;
 	height:50px;
 }
 #kid4{
-	border: 0px solid red;
+	border: 1px solid red;
 	background:;
 	padding-top: 50px;
 	margin-right: -50px;
 	-webkit-box-flex: 0;
 	-moz-box-flex: 0;
-	width:450px;
+	width:350px;
 	height:50px;
 }
 #children{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 100px;
 	width:1200px;
-	height:110px;
+	height:60px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
 #ecovative{
 	border:0px solid blue;
 	display:-webkit-box;
-	padding-top: 50px;
+	padding-top: 0px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 250px;
@@ -78,7 +78,7 @@
 #ecovative2{
 	border:0px solid blue;
 	display:-webkit-box;
-	padding-top: 50px;
+	padding-top: 0px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 50px;
@@ -88,13 +88,13 @@
 	-moz-box-align:stretch;
 }
 #children2{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 160px;
 	width:1200px;
-	height:610px;
+	height:510px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
@@ -130,7 +130,7 @@
 	-moz-box-orient:horizontal;
 	margin-left: 0px;
 	width:270px;
-	height:300px;
+	height:400px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
@@ -146,8 +146,17 @@
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
-#grayswipe{
-	margin-left: 90px;
+#orangeswipe{
+	margin-left: 85px;
+	padding-bottom: 50px;
+}
+#grayswipe1{
+	
+	padding-bottom: 40px;
+}
+#grayswipe2{
+	
+	padding-bottom: 40px;
 }
 #copyright {
 	float:left;
