@@ -69,7 +69,7 @@
 	padding-top: 0px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
-	margin-left: 250px;
+	margin-left: 180px;
 	width:450px;
 	height:40px;
 	-webkit-box-align:stretch;
@@ -81,7 +81,7 @@
 	padding-top: 0px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
-	margin-left: 50px;
+	margin-left: 20px;
 	width:600px;
 	height:40px;
 	-webkit-box-align:stretch;
@@ -92,16 +92,16 @@
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
-	margin-left: 160px;
+	margin-left: 0px;
 	width:1200px;
-	height:710px;
+	height:810px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
 #triple{
 	border:0px solid blue;
 	display:-webkit-box;
-	padding-top: 80px;
+	padding-top: 50px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: ;
@@ -110,8 +110,7 @@
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
-#dual
-{
+#dual{
 	border:0px solid blue;
 	display:-webkit-box;
 	padding-top: 0px;
@@ -123,8 +122,7 @@
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
-#quadrup
-{
+#quadrup{
 	border:0px solid blue;
 	display:-webkit-box;
 	padding-top: 0px;
@@ -137,15 +135,14 @@
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
-
 #savewater{
 	border:0px solid blue;
 	display:-webkit-box;
-	padding-top: 5px;
+	padding-top: px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 200px;
-	width:270px;
+	width:200px;
 	height:300px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
@@ -162,6 +159,10 @@
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
+#savewaterpic{
+	width:190px;
+	height:250px;
+}
 #orangeswipe2{
 	margin-left: 225px;
 	padding-bottom: 70px;
@@ -170,46 +171,50 @@
 	padding-bottom: 60px;
 }
 #grayswipe4{
-	
 	padding-bottom: 60px;
 }
 #saveresources{
 	border:0px solid blue;
 	display:-webkit-box;
-	padding-top:20px;
+	padding-top:5px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 0px;
-	width:270px;
-	height:400px;
+	width:200px;
+	height:300px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
+}
+#saveresourcespic{
+	width:210px;
+	height:265px;
 }
 #saveearth{
 	border:0px solid blue;
 	display:-webkit-box;
-	padding-top:10px;
+	padding-top:0px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 0px;
-	width:270px;
+	width:200px;
 	height:300px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
+}
+#saveearthpic{
+	width:210px;
+	height:265px;
 }
 #orangeswipe{
 	margin-left: 85px;
 	padding-bottom: 50px;
 }
 #grayswipe1{
-	
 	padding-bottom: 40px;
 }
 #grayswipe2{
-	
 	padding-bottom: 40px;
 }
-
 #eco_opt{
 	border:0px solid blue;
 	display:-webkit-box;
