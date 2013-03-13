@@ -1,5 +1,5 @@
 #mommy{
-	border:1px solid blue;
+	border:0px solid blue;
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
@@ -15,7 +15,7 @@
 	word-spacing: 3px;
 }
 #kid1{
-	border: 1px solid red;
+	border: 0px solid red;
 	background: ;
 	padding: 0px;
 	margin-left:0px;
@@ -25,7 +25,7 @@
 	height:150px;
 }
 #kid2{
-	border: 1px solid red;
+	border: 0px solid red;
 	background:;
 	padding-top: 80px;
 	-webkit-box-flex: 0;
@@ -34,7 +34,7 @@
 	height:50px;
 }
 #kid3{
-	border: 1px solid red;
+	border: 0px solid red;
 	background:;
 	padding-top: 81px;
 	-webkit-box-flex: 0;
@@ -43,7 +43,7 @@
 	height:50px;
 }
 #kid4{
-	border: 1px solid red;
+	border: 0px solid red;
 	background:;
 	padding-top: 50px;
 	margin-right: -50px;
@@ -53,7 +53,7 @@
 	height:50px;
 }
 #children{
-	border:1px solid blue;
+	border:0px solid blue;
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
@@ -88,18 +88,18 @@
 	-moz-box-align:stretch;
 }
 #children2{
-	border:1px solid blue;
+	border:0px solid blue;
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 160px;
 	width:1200px;
-	height:510px;
+	height:710px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
 #triple{
-	border:1px solid blue;
+	border:0px solid blue;
 	display:-webkit-box;
 	padding-top: 80px;
 	-webkit-box-orient:horizontal;
@@ -110,8 +110,36 @@
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
+#dual
+{
+	border:0px solid blue;
+	display:-webkit-box;
+	padding-top: 0px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-top: 0px ;
+	width:290px;
+	height:450px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#quadrup
+{
+	border:0px solid blue;
+	display:-webkit-box;
+	padding-top: 0px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-top: 150px ;
+	margin-left: -270px;
+	width:90px;
+	height:220px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+
 #savewater{
-	border:1px solid blue;
+	border:0px solid blue;
 	display:-webkit-box;
 	padding-top: 5px;
 	-webkit-box-orient:horizontal;
@@ -122,8 +150,31 @@
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
+#savewater1{
+	border:0px solid blue;
+	display:-webkit-box;
+	padding-top: 5px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 200px;
+	width:370px;
+	height:500px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#orangeswipe2{
+	margin-left: 225px;
+	padding-bottom: 70px;
+}
+#grayswipe3{
+	padding-bottom: 60px;
+}
+#grayswipe4{
+	
+	padding-bottom: 60px;
+}
 #saveresources{
-	border:1px solid blue;
+	border:0px solid blue;
 	display:-webkit-box;
 	padding-top:20px;
 	-webkit-box-orient:horizontal;
@@ -135,7 +186,7 @@
 	-moz-box-align:stretch;
 }
 #saveearth{
-	border:1px solid blue;
+	border:0px solid blue;
 	display:-webkit-box;
 	padding-top:10px;
 	-webkit-box-orient:horizontal;
@@ -157,6 +208,18 @@
 #grayswipe2{
 	
 	padding-bottom: 40px;
+}
+
+#eco_opt{
+	border:0px solid blue;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 120px;
+	width:1200px;
+	height:510px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
 }
 #copyright {
 	float:left;
