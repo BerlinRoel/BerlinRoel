@@ -5,6 +5,7 @@
 	-moz-box-orient:horizontal;
 	width:1200px;
 	height:170px;
+	margin-left: 160px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 	font-family: "Calibri";
@@ -56,6 +57,7 @@
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
+	margin-left: 100px;
 	width:1200px;
 	height:110px;
 	-webkit-box-align:stretch;
@@ -90,6 +92,7 @@
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
+	margin-left: 160px;
 	width:1200px;
 	height:610px;
 	-webkit-box-align:stretch;
@@ -108,37 +111,37 @@
 	-moz-box-align:stretch;
 }
 #savewater{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
-	padding-top: ;
+	padding-top: 5px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 200px;
-	width:300px;
+	width:270px;
 	height:300px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
 #saveresources{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
-	padding-top: ;
+	padding-top:20px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 0px;
-	width:300px;
+	width:270px;
 	height:300px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
 #saveearth{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
-	padding-top: ;
+	padding-top:10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 0px;
-	width:300px;
+	width:270px;
 	height:300px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
