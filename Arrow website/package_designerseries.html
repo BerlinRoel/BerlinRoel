@@ -25,18 +25,49 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 <style>
 
 @media screen and (max-width: 800px) {
-	img {
-		width: 50%;
-	}
 	
-	.producticons {
-		width: 50%;
+	
+	img  {
+		max-width: 50%;
+		height: auto;
 	}
 	
 	table {
 		width: 50%;
+		height: auto;
 	}
 
+	#hoverbox:hover {
+		background: url('images/designseries/Hover box.png') no-repeat; 
+	}
+
+	#hoverbox:hover .producticons {
+		display: inline;
+	}
+
+	.hiddenlabel {
+		display: none;
+	}
+
+	.whitefont {
+		color: white;
+		font-family: 'calibri';
+		font-size: 18px;
+	}
+
+	.whitefont:hover {
+		color: black;
+	}
+
+	.fancybox-opened .fancybox-skin {
+		background: url('images/DesignSeries/Design Series Pop Up/HTML elements/Pop Up box.png') no-repeat;
+	}
+
+	.producticons {
+		display: none;
+	}
+	
+	
 }
 
 
