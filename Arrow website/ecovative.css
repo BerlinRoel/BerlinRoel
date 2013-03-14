@@ -1,117 +1,39 @@
-#mommy{
-	border:0px solid blue;
-	display:-webkit-box;
-	-webkit-box-orient:horizontal;
-	-moz-box-orient:horizontal;
-	width:1200px;
-	height:170px;
-	margin-left: 120px;
-	-webkit-box-align:stretch;
-	-moz-box-align:stretch;
-	font-family: "Calibri";
-	font-size: 13px;
-	color: #7c5252;
-	padding:20px;
-	word-spacing: 3px;
-}
-#kid1{
-	border: 0px solid red;
-	background: ;
-	padding: 0px;
-	margin-left:0px;
-	-webkit-box-flex: 1;
-	-moz-box-flex: 1;
-	width:550px;
-	height:150px;
-}
-#kid2{
-	border: 0px solid red;
-	background:;
-	padding-top: 80px;
-	-webkit-box-flex: 0;
-	-moz-box-flex: 0;
-	width:50px;
-	height:50px;
-}
-#kid3{
-	border: 0px solid red;
-	background:;
-	padding-top: 81px;
-	-webkit-box-flex: 0;
-	-moz-box-flex: 0;
-	width:375px;
-	height:50px;
-}
-#kid4{
-	border: 0px solid red;
-	background:;
-	padding-top: 50px;
-	margin-right: -50px;
-	-webkit-box-flex: 0;
-	-moz-box-flex: 0;
-	width:350px;
-	height:50px;
-}
 #children{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
-	margin-left: 100px;
-	width:1200px;
+	margin-right:100px;
+	width:300px;
 	height:60px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
-#ecovative{
-	border:0px solid blue;
-	display:-webkit-box;
-	padding-top: 0px;
-	-webkit-box-orient:horizontal;
-	-moz-box-orient:horizontal;
-	margin-left: 180px;
-	width:450px;
-	height:40px;
-	-webkit-box-align:stretch;
-	-moz-box-align:stretch;
-}
-#ecovative2{
-	border:0px solid blue;
-	display:-webkit-box;
-	padding-top: 0px;
-	-webkit-box-orient:horizontal;
-	-moz-box-orient:horizontal;
-	margin-left: 20px;
-	width:600px;
-	height:40px;
-	-webkit-box-align:stretch;
-	-moz-box-align:stretch;
-}
 #children2{
-	border:0px solid blue;
+	border:5px solid blue;
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left: 0px;
 	width:1200px;
-	height:810px;
+	height:510px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
 #triple{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
-	padding-top: 50px;
+	padding-top: 0px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
-	margin-left: ;
+	margin-top:50px ;
 	width:90px;
-	height:400px;
+	height:200px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
 }
 #dual{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
 	padding-top: 0px;
 	-webkit-box-orient:horizontal;
@@ -136,7 +58,7 @@
 	-moz-box-align:stretch;
 }
 #savewater{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
 	padding-top: px;
 	-webkit-box-orient:horizontal;
@@ -148,7 +70,7 @@
 	-moz-box-align:stretch;
 }
 #savewater1{
-	border:0px solid blue;
+	border:1px solid blue;
 	display:-webkit-box;
 	padding-top: 5px;
 	-webkit-box-orient:horizontal;
@@ -160,8 +82,7 @@
 	-moz-box-align:stretch;
 }
 #savewaterpic{
-	width:190px;
-	height:250px;
+	margin-left: 100px;
 }
 #orangeswipe2{
 	margin-left: 225px;
@@ -173,41 +94,16 @@
 #grayswipe4{
 	padding-bottom: 60px;
 }
-#saveresources{
-	border:0px solid blue;
-	display:-webkit-box;
-	padding-top:5px;
-	-webkit-box-orient:horizontal;
-	-moz-box-orient:horizontal;
-	margin-left: 0px;
-	width:200px;
-	height:300px;
-	-webkit-box-align:stretch;
-	-moz-box-align:stretch;
-}
 #saveresourcespic{
-	width:210px;
-	height:265px;
-}
-#saveearth{
-	border:0px solid blue;
-	display:-webkit-box;
-	padding-top:0px;
-	-webkit-box-orient:horizontal;
-	-moz-box-orient:horizontal;
-	margin-left: 0px;
-	width:200px;
-	height:300px;
-	-webkit-box-align:stretch;
-	-moz-box-align:stretch;
+
 }
 #saveearthpic{
-	width:210px;
-	height:265px;
+
 }
 #orangeswipe{
 	margin-left: 85px;
 	padding-bottom: 50px;
+	
 }
 #grayswipe1{
 	padding-bottom: 40px;
@@ -232,4 +128,19 @@
 #designby {
 	float:right;
 }
+
+@media 
+	only screen and (max-width: 760px),
+	(min-device-width: 368px) and (max-device-width: 1024px)  {
+	
+#img {
+	width: 25%;
+	height: ;
+}
+#children2{
+	width: 100%;
+	height: 100%;
+}
+}
+
 
