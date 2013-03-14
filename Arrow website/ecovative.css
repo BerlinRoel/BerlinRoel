@@ -8,6 +8,7 @@
 	height:60px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
+	-webkit-box-flex:1;
 }
 #children2{
 	border:5px solid blue;
@@ -19,6 +20,7 @@
 	height:510px;
 	-webkit-box-align:stretch;
 	-moz-box-align:stretch;
+	-webkit-box-flex:1;
 }
 #triple{
 	border:1px solid blue;
