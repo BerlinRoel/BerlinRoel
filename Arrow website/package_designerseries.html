@@ -138,9 +138,18 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 			<img src="images/DesignSeries/Design Series Pop Up/HTML elements/cart.png" style="position: absolute; top: 71px; left: 435px;" >
 			<img src="images/DesignSeries/Design Series Pop Up/HTML elements/heart.png" style="position: absolute; top: 114px; left: 439px;" >
 			<img src="images/DesignSeries/Design Series Pop Up/HTML elements/share.png" style="position: absolute; top: 151px; left: 437px;" >
-			<img src="images/DesignSeries/Design Series Pop Up/HTML elements/colours.png" style="position: absolute; bottom: 101px; left: 169px;" >
+			
+<!--updated the z-index of colors -->			
+			<img id= "colors" src="images/DesignSeries/Design Series Pop Up/HTML elements/colours.png" style="position: absolute; bottom: 101px; left: 169px; z-index: 5;" >
 			<h4 style="position: absolute;top: 50px; left: 126px; font-size: 15px;" >BATHRUB - AK170 </h4>		
-			<img src="images/DesignSeries/Design Series Pop Up/Design Pop Up Products/1/white toilet.png" style="position: absolute; left: 109px;">
+			<img id="whitetoilet" src="images/DesignSeries/Design Series Pop Up/Design Pop Up Products/1/white toilet.png" style="position: absolute; left: 109px;">
+			
+<!--OTHER COLORS FOR IMAGE-->
+
+			<img id="orangetoilet" src="images/DesignSeries/Design Series Pop Up/Design Pop Up Products/1/Orange Toilet.png" style="position: absolute; left: 109px; display: none;">
+
+<!--OTHER COLORS FOR IMAGE-->
+			
 				<div class="description" style="position: absolute; left: 518px; top: 101px; width: 225px;">
 					<h4 style="color: white; font-family: 'calibri'; font-size: 15px;" >Description</h4>
 						<p style="color: white; font-family: 'calibri'; font-size: 15px;">
@@ -325,6 +334,14 @@ $(document).ready(function(){
 		$('this.hiddenlabel').addClass('hiddenlabel');
 	});
 });
+
+$(document).ready(function(){
+	$("#colors").click(function(){
+		$("#orangetoilet").show();
+		$("#whitetoilet").hide();
+	});
+});
+
 </script>
 
 </body>
