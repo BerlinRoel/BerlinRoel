@@ -10,7 +10,8 @@ $(document).ready(function() {
     layoutMode : 'masonry',
     masonry : {
       columnWidth : 242,
-      rowHeight: 182 
+      rowHeight: 182
+	  //rowHeight: 500
     }
   });
 
