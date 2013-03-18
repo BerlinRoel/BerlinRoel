@@ -140,7 +140,8 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 			<img src="images/DesignSeries/Design Series Pop Up/HTML elements/share.png" style="position: absolute; top: 151px; left: 437px;" >
 			
 <!--updated the z-index of colors -->			
-			<img id= "colors" src="images/DesignSeries/Design Series Pop Up/HTML elements/colours.png" style="position: absolute; bottom: 101px; left: 169px; z-index: 5;" >
+			<img id= "colors" src="images/DesignSeries/swipe circle.png" style="position: absolute; bottom: 101px; left: 169px; z-index: 5;" >
+			<img id= "colors1" src="images/DesignSeries/swipe grey.png" style="position: absolute; bottom: 101px; left: 199px; z-index: 5;" >
 			<h4 style="position: absolute;top: 50px; left: 126px; font-size: 15px;" >BATHRUB - AK170 </h4>		
 			<img id="whitetoilet" src="images/DesignSeries/Design Series Pop Up/Design Pop Up Products/1/White Toilet.png" style="position: absolute; left: 109px;">
 			
@@ -356,6 +357,13 @@ $(document).ready(function(){
 	$("#colors").click(function(){
 		$("#orangetoilet").fadeIn(1000);
 		$("#whitetoilet").fadeOut(1000);
+	});
+});
+
+$(document).ready(function(){
+	$("#colors1").click(function(){
+		$("#whitetoilet").fadeIn(1000);
+		$("#orangetoilet").fadeOut(1000);
 	});
 });
 
