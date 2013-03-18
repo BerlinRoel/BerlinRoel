@@ -5,6 +5,7 @@ $to = "tplberzbay@gmail.com; cokarlene@gmail.com";
 $subject = "ARROW";
 $headers = "From: Form Mailer";
 //$location = "index.html?confirm=yes";
+$location = "home.html";
 
 $date = date ("l, F jS, Y"); 
 $time = date ("h:i A"); 
