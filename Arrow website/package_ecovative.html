@@ -81,7 +81,7 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 			<li><a href='clients.html' class='#'>CLIENTS</a> </li>
 			<li><a href="stores.html">STORES</a> </li>
 			<li><a href='contactus.html' class='contact'>CONTACT US</a> </li>
-			<li style="margin-top:75px;"><img id="fb" src="images/header/Fb.png"></li>
+			<li style="margin-top:75px; margin-right:-30px;"><img id="fb" src="images/header/Fb.png"></li>
 			<li style="margin-top:78px;"><img id="twt" src="images/header/Twitter.png"></li>
 
 		</ul>
@@ -162,11 +162,11 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 
 				<td align="center" style="padding-top: 50px; width: 15%" >
 					
-					<img id="savewater" src="images/Ecovative/Ecovative Main Page/Save Water.png" class="producticons" style="padding-right: 30px;" >
+					<img id="savewater" src="images/Ecovative/Ecovative Main Page/Save Water.png" class="producticons" style="padding-right: 20px;" >
 				</td>
 				
 				<td align="center" style="padding-top: 50px; width: 15%" >
-					<img id="saveresources" src="images/Ecovative/Ecovative Main Page/Save Resources.png" class="producticons" style="" >
+					<img id="saveresources" src="images/Ecovative/Ecovative Main Page/Save Resources.png" class="producticons" style="padding-right: 20px;" >
 				</td>
 				
 				<td align="center" style="padding-top: 50px; width: 15%" >
@@ -210,9 +210,9 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 		</table>
 
 				<p align="center">
-					<a href="ecovative_options.html"><img src="images/Ecovative/swipe circle.png" style="padding-left: 20px;"  >
-					<img src="images/Ecovative/swipe grey.png" style="padding-left: 20px;"  >
-					<img src="images/Ecovative/swipe grey.png" style="padding-left: 20px;"  >
+					<a href="ecovative_options.html"><img src="images/Ecovative/swipe circle.png" style="padding-left: 5px;"  >
+					<img src="images/Ecovative/swipe grey.png" style="padding-left: 5px;"  >
+					<img src="images/Ecovative/swipe grey.png" style="padding-left: 5px;"  >
 				</p>
 <header>
 <div class='wrap'>
@@ -290,7 +290,7 @@ $(document).ready(function(){
 	});	
 
 	$('#saveresources').hover(function() {
-		$(this).attr('src', 'images/Ecovative/Ecovative Main Page/Save Resources (Hover).png');
+		$(this).attr('src', 'images/Ecovative/Ecovative Main Page/Save Resources.png');
 		$('#saveresourcescaption').show();
 		}, function() {
 		$(this).attr('src', 'images/Ecovative/Ecovative Main Page/Save Resources.png');
@@ -304,7 +304,12 @@ $(document).ready(function(){
 		$(this).attr('src', 'images/Ecovative/Ecovative Main Page/Save the Earth.png');
 		$('#saveearthcaption').hide();
 	});		
-
+	
+	$('#toilet').hover(function() {
+		$('#hiddenoption').show();
+		}, function() {
+		$('#hiddenoption').hide();
+	});
 
 });
 </script>
