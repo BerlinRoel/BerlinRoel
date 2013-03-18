@@ -4,7 +4,7 @@ $to = "tplberzbay@gmail.com; cokarlene@gmail.com";
 //$to = "giselle.saldaga@gmail.com";
 $subject = "ARROW";
 $headers = "From: Form Mailer";
-$location = "index.html?confirm=yes";
+//$location = "index.html?confirm=yes";
 
 $date = date ("l, F jS, Y"); 
 $time = date ("h:i A"); 
