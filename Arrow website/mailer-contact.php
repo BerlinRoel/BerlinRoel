@@ -4,8 +4,7 @@ $to = "tplberzbay@gmail.com; cokarlene@gmail.com; roelmargarejo@gmail.com";
 //$to = "giselle.saldaga@gmail.com";
 $subject = "ARROW";
 $headers = "From: Form Mailer";
-//$location = "index.html?confirm=yes";
-$location = "home.html";
+$location = "index.html?confirm=yes";
 
 $date = date ("l, F jS, Y"); 
 $time = date ("h:i A"); 
@@ -25,8 +24,8 @@ $body =
 It was submitted on $date at $time.\n
 Name: $name\n
 Email: $email\n
-Contact us.: $number\n
-Company : $school\n
+Contact us: $number\n
+Company: $school\n
 Message: $msg
 	";
 
