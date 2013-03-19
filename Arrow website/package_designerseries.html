@@ -127,7 +127,7 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 
 
 
-	<div  id="popupnotify" style="display: none; z-index: 8014;  border: solid 1px gray; width: 500px; height: 380px; border-radius: 5px; position: absolute; top: 50%; left: 50%; margin-top: -190px; margin-left: -250px;  background: lightgray;" >
+	<div  id="popupnotify" style="display: none; z-index: 8014;  border: solid 1px gray; width: 500px; height: 380px; border-radius: 5px; position: absolute; top: 50%; left: 50%; margin-top: -190px; margin-left: -250px;  background: red;" >
 		<div id="form-div" style="width: 500px; margin-top: 35px;" onsubmit="" >
 			<form class="form" id="form1" method="post"  name="form" action="mailer-contact.php"  onreset="removeVal()" onSubmit="confirmation()">
 				<p class="name" style="margin-bottom: -8px; margin-top: 0px;">
@@ -417,7 +417,7 @@ $(document).ready(function(){
 		$("#popupnotify").show();
 	});
 
-	$('.fancybox-overlay').click(function(){
+	$('.-overlay').click(function(){
 		$("#popupnotify").hide();
 	});
 });
