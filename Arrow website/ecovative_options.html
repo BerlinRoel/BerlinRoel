@@ -29,10 +29,15 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 #hiddenoption1 {
 	display: none;
 }
-
-
-
-
+#hiddenoption2 {
+	display: none;
+}
+#hiddenoption3 {
+	display: none;
+}
+#hiddenoption4 {
+	display: none;
+}
 </style>
 
 </head>
@@ -180,23 +185,28 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 							</td>
 												
 						<tr>
-							<td ="softc">
+							<td id="softc">
 								<img src="images/Ecovative/Otto Water Save/Soft Clorse.png" style="padding-top: 20px;"  >
 							</td>
 							
-							
+							<td id="hiddenoption2" rowspan="2" style = "background: url('images/Ecovative/Otto Water Save/Orange pop.png') no-repeat; width: 198px; padding-top: 8px; padding-left: 35px; padding-right: 35px;" >		
+																				
 						</tr>
 					
 						<tr>
-							<td>					
+							<td id="tornadof">					
 								<img src="images/Ecovative/Otto Water Save/Tornado Flush.png" style="padding-top: 20px;"  >
 							</td>
+							<td id="hiddenoption3" rowspan="2" style = "background: url('images/Ecovative/Otto Water Save/Orange pop.png') no-repeat; width: 198px; padding-top: 8px; padding-left: 35px; padding-right: 35px;" >		
+							
 						</tr>					
 
-						<tr>
-							<td>						
-								<img src="images/Ecovative/Otto Water Save/Dual Flush.png" style="padding-top: 20px;"  >
+						<tr style="height: 150px;">
+							<td id="dualf">						
+								<img src="images/Ecovative/Otto Water Save/Dual Flush.png" >
 							</td>
+							<td id="hiddenoption4" rowspan="2" style = "background: url('images/Ecovative/Otto Water Save/Orange pop.png') no-repeat; width: 198px; padding-top: 8px; padding-left: 35px; padding-right: 35px;" >		
+							
 						</tr>
 					</table>
 
@@ -315,8 +325,18 @@ $(document).ready(function(){
 		}, function() {
 		$('#hiddenoption3').hide();
 	});
+	$('#hiddenoption3').hover(function() {
+		$('#hiddenoption3').show();
+		}, function() {
+		$('#hiddenoption3').hide();
+	});
 	
 	$('#dualf').hover(function() {
+		$('#hiddenoption4').show();
+		}, function() {
+		$('#hiddenoption4').hide();
+	});
+	$('#hiddenoption4').hover(function() {
 		$('#hiddenoption4').show();
 		}, function() {
 		$('#hiddenoption4').hide();
