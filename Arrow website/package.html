@@ -37,6 +37,54 @@
  
 <script src="js/application.js" type="text/javascript"></script>
 
+<style>
+#pack2 {
+	display: none;
+}
+#pack3 {
+	display: none;
+}
+#pack4 {
+	display: none;
+}
+#pack5 {
+	display: none;
+}
+#pack6 {
+	display: none;
+}
+#forward2 {
+	display: none;
+}
+#forward3 {
+	display: none;
+}
+#forward4 {
+	display: none;
+}
+#forward5 {
+	display: none;
+}
+#back {
+	display: none;
+}
+#back2 {
+	display: none;
+}
+#back3 {
+	display: none;
+}
+#back4 {
+	display: none;
+}
+#back5 {
+	display: none;
+}
+
+#pack2plus {
+	display: none;
+}
+</style>
 
 
 </head>
@@ -106,6 +154,7 @@
 
 <span style="float:right; margin-top:-30px;"><img src="images/header/tel.png"></span>
 <!---->
+     
       
     </header>
 
@@ -118,9 +167,27 @@
 	</a>
 	
 	
-	<img id="plus" src="images/package/1s2.png" style="padding-left: 100px; padding-top: 80px;" />
+	<img id="pack1" src="images/package/1s2.png" style="padding-left: 100px; padding-top: 80px;" />
+	<img id="pack2" src="images/package/Package_2.png" style="padding-left: 100px; padding-top: 80px;" />
+	<img id="pack3" src="images/package/Package_3.png" style="padding-left: 100px; padding-top: 80px;" />
+	<img id="pack4" src="images/package/Package_4.png" style="padding-left: 100px; padding-top: 80px;" />
+	<img id="pack5" src="images/package/Package_5.png" style="padding-left: 100px; padding-top: 80px;" />
+	<img id="pack6" src="images/package/Package_6.png" style="padding-left: 100px; padding-top: 80px;" />
 	<!--<img id="back" src="images/back.png" style="position: absolute; left: 44px; top: 134px;" />-->
+	
 	<img id="forward" src="images/package/forward.png" style="position: absolute; left: 540px; top: 139px;" />
+	<img id="forward2" src="images/package/forward2.png" style="position: absolute; left: 540px; top: 139px;" />
+	<img id="forward3" src="images/package/forward3.png" style="position: absolute; left: 540px; top: 139px;" />
+	<img id="forward4" src="images/package/forward4.png" style="position: absolute; left: 540px; top: 139px;" />
+	<img id="forward5" src="images/package/forward5.png" style="position: absolute; left: 540px; top: 139px;" />
+	
+	
+	<img id="back" src="images/package/back.png" style="position: absolute; left: 45px; top: 139px;" />
+	<img id="back2" src="images/package/back2.png" style="position: absolute; left: 45px; top: 139px;" />
+	<img id="back3" src="images/package/back3.png" style="position: absolute; left: 45px; top: 139px;" />
+	<img id="back4" src="images/package/back4.png" style="position: absolute; left: 45px; top: 139px;" />
+	<img id="back5" src="images/package/back5.png" style="position: absolute; left: 45px; top: 139px;" />
+	
 	
 	<img id="cart" src="images/package/cart (circle).png" style="position: absolute; left: 603px; top: 226px;" />
 	<img id="heart" src="images/package/Heart (likes).png" style="position: absolute; left: 678px; top: 226px;" />
@@ -155,9 +222,10 @@
 	</a>
 	
 	
-	<img id="plus" src="images/package/1s2.png" style="padding-left: 100px; padding-top: 80px;" />
+	<img id="pack1plus" src="images/package/1s2.png" style="padding-left: 100px; padding-top: 80px;" />
+	<img id="pack2plus" src="images/package/1s2.png" style="padding-left: 100px; padding-top: 80px;" />
 	<!--<img id="back" src="images/back.png" style="position: absolute; left: 44px; top: 134px;" />-->
-	<img id="forward" src="images/package/forward.png" style="position: absolute; left: 540px; top: 139px;" />
+	
 	
 	<img id="cart" src="images/package/cart (circle).png" style="position: absolute; left: 603px; top: 226px;" />
 	<img id="heart" src="images/package/Heart (likes).png" style="position: absolute; left: 678px; top: 226px;" />
@@ -208,6 +276,164 @@ $(document).ready(function(){
   });
 });
 
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#forward").click(function(){
+		$("#pack2").fadeIn(10);
+		$("#back").fadeIn(10);
+		$("#forward2").fadeIn(10);
+		$("#forward").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		
+	});
+});
+$(document).ready(function(){
+	$("#forward2").click(function(){
+		$("#pack3").fadeIn(10);
+		$("#back2").fadeIn(10);
+		$("#forward3").fadeIn(10);
+		$("#back").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		
+	});
+});
+$(document).ready(function(){
+	$("#forward3").click(function(){
+		$("#pack4").fadeIn(10);
+		$("#back3").fadeIn(10);
+		$("#forward4").fadeIn(10);
+		$("#back2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		
+	});
+});
+$(document).ready(function(){
+	$("#forward4").click(function(){
+		$("#pack5").fadeIn(10);
+		$("#back4").fadeIn(10);
+		$("#forward5").fadeIn(10);
+		$("#back3").fadeOut(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#back3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack6").fadeOut(10);
+		
+	});
+});
+$(document).ready(function(){
+	$("#forward5").click(function(){
+		$("#pack6").fadeIn(10);
+		$("#back5").fadeIn(10);
+		$("#back4").fadeOut(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		
+	});
+});
+$(document).ready(function(){
+	$("#back5").click(function(){
+		$("#pack5").fadeIn(10);
+		$("#back4").fadeIn(10);
+		$("#forward5").fadeIn(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#back5").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack6").fadeOut(10);
+	});
+});
+$(document).ready(function(){
+	$("#back4").click(function(){
+		$("#pack4").fadeIn(10);
+		$("#back3").fadeIn(10);
+		$("#forward4").fadeIn(10);
+		$("#back4").fadeOut(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+	});
+});
+$(document).ready(function(){
+	$("#back3").click(function(){
+		$("#pack3").fadeIn(10);
+		$("#back2").fadeIn(10);
+		$("#forward3").fadeIn(10);
+		$("#back3").fadeOut(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+	});
+});
+$(document).ready(function(){
+	$("#back2").click(function(){
+		$("#pack2").fadeIn(10);
+		$("#back").fadeIn(10);
+		$("#forward2").fadeIn(10);
+		$("#back3").fadeOut(10);
+		$("#back2").fadeOut(10);
+		$("#forward").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+	});
+});
+$(document).ready(function(){
+	$("#back").click(function(){
+		$("#pack1").fadeIn(10);
+		$("#forward").fadeIn(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$("#back").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+	});
+});
 
 </script>
 
