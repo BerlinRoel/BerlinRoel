@@ -150,9 +150,14 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 
 
 
-	<div  id="popupnotify" style="display: none; z-index: 8014;  border: solid 1px gray; width: 500px; height: 280px; border-radius: 5px; position: absolute; top: 50%; left: 50%; margin-top: -190px; margin-left: -250px;  background: red;" >
+	<div  id="popupnotify" style="display: none; z-index: 8014;  border: solid 1px gray; width: 500px; height: 343px; border-radius: 5px; position: absolute; top: 50%; left: 50%; margin-top: -190px; margin-left: -250px;  background: red; s" >
 		<div id="form-div" style="width: 500px; margin-top: 35px;" onsubmit="" >
 			<form class="form" id="form1" method="post"  name="form" action="mailer-contact.php"  onreset="removeVal()" onSubmit="confirmation()">
+				
+				
+					
+				
+			
 				<p class="name" style="margin-bottom: -8px; margin-top: 0px;">
 					<label for="name" style="color: white; font-family: 'Calibri'; font-size: 18px; padding-left: 66px">name</label>
 					<input name="name" type="text" id="name" class="validate[required,custom[onlyLetter]" value="" style="background-color: transparent; border-top: none; border-left: none; border-right: none; border-bottom: none; color: white;" />
@@ -184,12 +189,14 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 				<p class="text" style="margin-bottom: -8px; margin-top: 9px; " >
 					<label for="message" style="color: white; font-family: 'Calibri'; font-size: 18px; padding-left: 43px; vertical-align: top;" >message</label>
 				  <span class="text" style="margin-bottom: -8px; margin-top: 9px; ">
-					<textarea name="message" class="validate[required]" id="message" style="background-color: transparent; border-top: none; border: none; color: white; height: 90px; line-height: 30px; background: url(image/contactus/messagelines.png) repeat-y;"></textarea>
+					<textarea id="ordertext" name="message" class="validate[required]" id="message" style="background-color: transparent; border-top: none; border: none; color: white; height: 90px; line-height: 30px; background: url(image/contactus/messagelines.png) repeat-y;"></textarea>
 				</span></p>
 				
-				<a href="#"><p class="submit" style="text-align: right;" >
-					<input type="submit" value="submit" style="border: none; text-align: right;" />
-				</p></a>
+				<!--<a href="#" style="position: relative;" ><p class="submit" style="text-align: right;" >-->
+				<input type="button" id="closebutton" value="close" style="border: none;  width: 80px; border: solid 1px orange; border-radius: 5px; background: red; color: white; float: left;" />	
+				<input type="submit" value="submit" style="border: none;  width: 80px; border: solid 1px orange; border-radius: 5px; background: red; color: white; float: right;" />
+				
+				<!--</p></a>-->
 
 			  
 			</form>
@@ -207,7 +214,7 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 
 		<div id="product1" class="product" style="display: none; width: 544px; margin-left: auto; margin-right: auto; margin-top: 100px;" >
 			<img src="images/header/Arrow icon logo2.png" style="position: absolute; top:61px; left: 79px;" >
-			<img id="notify" src="images/DesignSeries/Design Series Pop Up/HTML elements/cart.png" style="position: absolute; top: 71px; left: 435px;" >
+			<img id="notify" src="images/DesignSeries/Design Series Pop Up/HTML elements/cart.png" style="position: absolute; top: 71px; left: 435px;" alt="BATHRUB - AK170" >
 			<img src="images/DesignSeries/Design Series Pop Up/HTML elements/Heart.png" style="position: absolute; top: 114px; left: 439px;" >
 			<img src="images/DesignSeries/Design Series Pop Up/HTML elements/share.png" style="position: absolute; top: 151px; left: 437px;" >
 			
@@ -455,8 +462,21 @@ $(document).ready(function(){
 	});
 	
 	$("#notify").click(function(){
+		var ordertext = document.getElementById('ordertext');
+		
+		ordertext.value="I am interested in \n" +
+						$('#notify').attr('alt');
+		
 		$("#popupnotify").show();
+		
+		
 	});
+	
+	$("#closebutton").click(function(){
+		$("#popupnotify").hide();
+	});
+	
+	
 
 	$('.fancybox-overlay').click(function(){
 		$("#popupnotify").hide();
