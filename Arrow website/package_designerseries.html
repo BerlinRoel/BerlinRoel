@@ -531,6 +531,40 @@ $(document).ready(function(){
 	});	
 });
 
+$(document).ready(function(){
+	$("#ds2a").click(function(){
+		$("#puds2a").fadeIn(10);
+		$("#whitetoilet").fadeOut(10);
+		$("#orangetoilet").fadeOut(10);
+		$("#colors").fadeOut(10);
+		$("#colors1").fadeOut(10);
+	});
+	$("#ds1a").click(function(){
+		$("#whitetoilet").fadeIn(10);
+		$("#puds2a").fadeOut(10);
+		$("#colors").fadeIn(10);
+		$("#colors1").fadeIn(10);
+	});
+	$("#ds2b").click(function(){
+		$("#puds2b").fadeIn(10);
+		$("#ds1b").fadeOut(10);
+		$("#puds1b").fadeOut(10);
+	});
+	$("#ds1b").click(function(){
+		$("#puds1b").fadeIn(10);
+		$("#puds2b").fadeOut(10);
+	});
+	$("#ds2c").click(function(){
+		$("#puds2c").fadeIn(10);
+		$("#ds1c").fadeOut(10);
+		$("#puds1c").fadeOut(10);
+	});
+	$("#ds1c").click(function(){
+		$("#puds1c").fadeIn(10);
+		$("#puds2c").fadeOut(10);
+	});
+});
+
 </script>
 
 </body>
