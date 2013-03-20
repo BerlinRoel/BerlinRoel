@@ -301,7 +301,7 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
                             	<span id="toileticonbig"><img src="images/DesignSeries/toileticon_big.png" style=""  ></span>
 							</td>
 							<td>
-								<h6 style="position: absolute;top: 415px; left: 90px; font-size: 10px; color: white" >Design Series </h6>
+								<h6 style="position: absolute;top: 405px; left: 80px; font-size: 10px; color: white" >Design Series </h6>
 							</td>
 						</tr>					
 					</table>
@@ -358,13 +358,20 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 			</tr>
 			
 		</table>
-
-
-
-
-		
+	
 	</div>	
-<header>
+	<div>&nbsp;</div>
+	<div>&nbsp;</div>
+	<div>&nbsp;</div>
+	<div>&nbsp;</div>
+	<div>&nbsp;</div>
+	<div>&nbsp;</div>
+	<div>&nbsp;</div>
+	<div>&nbsp;</div>
+	<div>&nbsp;</div>
+	<div>&nbsp;</div>
+	
+	<header>
 <div class='wrap'>
     <div class="copyright"> <span style=" color:#cb1010">ARROW</span> <a href="http://arrowhomeinc.com/" target="_blank">Home Improvement, Inc. (c) 2013</a></div>
     <div class="designby">Design:<a href="http://liquidandliquid.com/" target="_blank">liquid and liquid CREATIONS</a></div>
@@ -474,17 +481,21 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$("#toileticon").hover(function(){
-		$("#toileticonbig").fadeIn(10);
-		$("#toileticon").fadeOut(10);
-	});
-});
-$(document).ready(function(){
 	$('#toileticon').hover(function() {
-		$('this#toileticonbig').removeClass('#toileticonbig');
+		$('#toileticonbig').show();
+		$('#toileticon').hide();
 		}, function() {
-		$('this#toileticonbig').addClass('#toileticonbig');
+		$('#toileticonbig').hide();
+		$('#toileticonbig').hide();
 	});
+
+	$('#toileticonbig').hover(function() {
+		$('#toileticonbig').show();
+		}, function() {
+		$('#toileticon').hide();
+		$('#toileticonbig').hide();
+		$('#toileticon').show();
+	});	
 });
 
 </script>
