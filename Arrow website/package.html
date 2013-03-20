@@ -157,6 +157,60 @@
      
       
     </header>
+	
+	<div  id="popupnotify" style="display: none; z-index: 8014;  border: solid 1px gray; width: 500px; height: 296px; border-radius: 5px; position: absolute; top: 50%; left: 50%; margin-top: -190px; margin-left: -250px;  background: red; s" >
+		<div id="form-div" style="width: 500px; margin-top: 35px;" onsubmit="" >
+			<form class="form" id="form1" method="post"  name="form" action="mailer-contact.php"  onreset="removeVal()" onSubmit="confirmation()">
+				
+				
+					
+				
+			
+				<p class="name" style="margin-bottom: -8px; margin-top: 0px;">
+					<label for="name" style="color: white; font-family: 'Calibri'; font-size: 18px; padding-left: 66px">name</label>
+					<input name="name" type="text" id="name" class="validate[required,custom[onlyLetter]" value="" style="background-color: transparent; border-top: none; border-left: none; border-right: none; border-bottom: none; color: white;" />
+				</p>
+			  
+			  
+				<p class="email" style="margin-bottom: -8px; margin-top: 0px;" >
+					<label for="email" style="color: white; font-family: 'Calibri'; font-size: 18px; padding-left: 66px">email</label>
+					<input name="email" type="text" id="email" class="validate[required,custom[email]" value="" style="background-color: transparent; border-top: none; border-left: none; border-right: none; border-bottom: none; color: white;" />
+				</p>
+			  
+
+				<p class="number" style="margin-bottom: -8px; margin-top: 0px;" >
+					<label for="number" style="color: white; font-family: 'Calibri'; font-size: 18px; padding-left: 56px" >mobile</label>
+					<input type="text" name="number" id="number" class="validate[custom[telephone]]" value="" style="background-color: transparent; border-top: none; border-left: none; border-right: none; border-bottom: none; color: white;" />
+				</p>
+			  
+			  
+				<p class="school" style="margin-bottom: -8px; margin-top: 0px; display: none;"  >
+					<label for="school" style="color: white; font-family: 'Calibri'; font-size: 18px; padding-left: 39px" >company</label>
+					<input type="text" name="school" id="school" class="validate[required,custom[onlyLetter]" value="" style="background-color: transparent; border-top: none; border-left: none; border-right: none; border-bottom: none; color: white;" />
+				</p>
+			
+	<!--		
+			  <p class="address">
+				<input type="text" name="address" id="address" class="validate[required,custom[onlyLetter]" value="Address"/>
+				<label for="address">&nbsp;</label>
+			  </p>
+	-->
+				<p class="text" style="margin-bottom: -8px; margin-top: 9px; " >
+					<label for="message" style="color: white; font-family: 'Calibri'; font-size: 18px; padding-left: 43px; vertical-align: top;" >message</label>
+				  <span class="text" style="margin-bottom: -8px; margin-top: 9px; ">
+					<textarea id="ordertext" name="message" class="validate[required]" id="message" style="background-color: transparent; border-top: none; border: none; color: white; height: 90px; line-height: 30px; background: url(image/contactus/messagelines.png) repeat-y;"></textarea>
+				</span></p>
+				
+				<!--<a href="#" style="position: relative;" ><p class="submit" style="text-align: right;" >-->
+				<input type="button" id="closebutton" value="close" style="border: none;  width: 80px; border: solid 1px orange; border-radius: 5px; background: red; color: white; float: left;" />	
+				<input type="submit" value="submit" style="border: none;  width: 80px; border: solid 1px orange; border-radius: 5px; background: red; color: white; float: right;" />
+				
+				<!--</p></a>-->
+
+			  
+			</form>
+	  </div>	
+	</div>
 
     <section class='main-content' >
     
@@ -203,7 +257,7 @@
     					<!--<img src="images/PopUpbox.png">-->
 						<img src="images/package/4b2.png" style="position: relative; margin-left: auto; margin-right: auto; ">
 						<img src="images/header/Arrow icon logo2.png" style="position: absolute; top: 57px; left: 84px;" >
-						<h4 style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set A </h4><img src="images/package/popup/cart (circle).png" style="position: absolute; top: 70px; left: 711px;" /> 
+						<h4 style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set A </h4><img id="notify" src="images/package/popup/cart (circle).png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set A" /> 
 						<img src="images/package/popup/heart circle.png" style="position: absolute; top: 110px; left: 707px;" />
 						<img src="images/package/popup/share circle.png" style="position: absolute; top: 150px; left: 712px;" />
     </div>
@@ -438,7 +492,34 @@ $(document).ready(function(){
 		$("#pack5").fadeOut(10);
 		$("#pack6").fadeOut(10);
 	});
+$("#notify").click(function(){
+		var ordertext = document.getElementById('ordertext');
+		
+		ordertext.value="I am interested in \n" +
+						$('#notify').attr('alt');
+		
+		$("#popupnotify").show();
+		
+		
+	});
+	
+	$("#closebutton").click(function(){
+		$("#popupnotify").hide();
+	});
+	
+	
+
+	$('.fancybox-overlay').click(function(){
+		$("#popupnotify").hide();
+	});
 });
+
+function hidediv() {
+		$("#popupnotify").hide();
+}
+});
+
+
 
 </script>
 
