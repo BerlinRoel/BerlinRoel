@@ -1,0 +1,148 @@
+#children{
+	border:1px solid blue;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-right:100px;
+	width:300px;
+	height:60px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+	-webkit-box-flex:1;
+}
+#children2{
+	border:5px solid blue;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 0px;
+	width:1200px;
+	height:510px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+	-webkit-box-flex:1;
+}
+#triple{
+	border:1px solid blue;
+	display:-webkit-box;
+	padding-top: 0px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-top:50px ;
+	width:90px;
+	height:200px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#dual{
+	border:1px solid blue;
+	display:-webkit-box;
+	padding-top: 0px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-top: 0px ;
+	width:290px;
+	height:450px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#quadrup{
+	border:0px solid blue;
+	display:-webkit-box;
+	padding-top: 0px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-top: 150px ;
+	margin-left: -270px;
+	width:90px;
+	height:220px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#savewater{
+	border:1px solid blue;
+	display:-webkit-box;
+	padding-top: px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 200px;
+	width:200px;
+	height:300px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#savewater1{
+	border:1px solid blue;
+	display:-webkit-box;
+	padding-top: 5px;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 200px;
+	width:370px;
+	height:500px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#savewaterpic{
+	margin-left: 100px;
+}
+#orangeswipe2{
+	margin-left: 225px;
+	padding-bottom: 70px;
+}
+#grayswipe3{
+	padding-bottom: 60px;
+}
+#grayswipe4{
+	padding-bottom: 60px;
+}
+#saveresourcespic{
+
+}
+#saveearthpic{
+
+}
+#orangeswipe{
+	margin-left: 85px;
+	padding-bottom: 50px;
+	
+}
+#grayswipe1{
+	padding-bottom: 40px;
+}
+#grayswipe2{
+	padding-bottom: 40px;
+}
+#eco_opt{
+	border:0px solid blue;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
+	margin-left: 120px;
+	width:1200px;
+	height:510px;
+	-webkit-box-align:stretch;
+	-moz-box-align:stretch;
+}
+#copyright {
+	float:left;
+}
+#designby {
+	float:right;
+}
+
+@media 
+	only screen and (max-width: 760px),
+	(min-device-width: 368px) and (max-device-width: 1024px)  {
+	
+#img {
+	width: 25%;
+	height: ;
+}
+#children2{
+	width: 100%;
+	height: 100%;
+}
+}
+
+
