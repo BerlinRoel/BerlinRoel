@@ -84,6 +84,54 @@
 #pack2plus {
 	display: none;
 }
+
+#PSB {
+	display: none;
+}
+#PSC {
+	display: none;
+}
+#PSD {
+	display: none;
+}
+#PSE {
+	display: none;
+}
+#PSF {
+	display: none;
+}
+#notify2 {
+	display: none;
+}
+#notify3 {
+	display: none;
+}
+#notify4 {
+	display: none;
+}
+#notify5 {
+	display: none;
+}
+#notify6 {
+	display: none;
+}
+.avatar2 {
+	display: none;
+}
+.avatar3 {
+	display: none;
+}
+.avatar4 {
+	display: none;
+}
+.avatar5 {
+	display: none;
+}
+.avatar6 {
+	display: none;
+}
+
+
 </style>
 
 
@@ -218,6 +266,12 @@
 	
 	<a class="fancybox" href="#product1" >
 		<img class="avatar" src="images/package/+.png" style="position: absolute; left: 40px; top: 30px;" />
+		<img class="avatar2" src="images/package/+2.png" style="position: absolute; left: 40px; top: 30px;" />
+		<img class="avatar3" src="images/package/+3.png" style="position: absolute; left: 40px; top: 30px;" />
+		<img class="avatar4" src="images/package/+4.png" style="position: absolute; left: 40px; top: 30px;" />
+		<img class="avatar5" src="images/package/+5.png" style="position: absolute; left: 40px; top: 30px;" />
+		<img class="avatar6" src="images/package/+6.png" style="position: absolute; left: 40px; top: 30px;" />
+	
 	</a>
 	
 	
@@ -257,7 +311,12 @@
     					<!--<img src="images/PopUpbox.png">-->
 						<img src="images/package/4b2.png" style="position: relative; margin-left: auto; margin-right: auto; ">
 						<img src="images/header/Arrow icon logo2.png" style="position: absolute; top: 57px; left: 84px;" >
-						<h4 style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set A </h4><img id="notify" src="images/package/popup/cart (circle).png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set A" /> 
+						<h4 id="PSA" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set A </h4><img id="notify" src="images/package/popup/cart (circle).png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set A" /> 
+						<h4 id="PSB" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set B </h4><img id="notify2" src="images/package/popup/cart2.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set B" /> 
+						<h4 id="PSC" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set C </h4><img id="notify3" src="images/package/popup/cart3.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set C" /> 
+						<h4 id="PSD" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set D </h4><img id="notify4" src="images/package/popup/cart4.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set D" /> 
+						<h4 id="PSE" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set E </h4><img id="notify5" src="images/package/popup/cart5.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set E" /> 
+						<h4 id="PSF" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set F </h4><img id="notify6" src="images/package/popup/cart6.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set F" /> 
 						<img src="images/package/popup/heart circle.png" style="position: absolute; top: 110px; left: 707px;" />
 						<img src="images/package/popup/share circle.png" style="position: absolute; top: 150px; left: 712px;" />
     </div>
@@ -272,12 +331,7 @@
     <div class='item cols-2_red rows-2' style="background: url(images/package/PackageBox.png) no-repeat; width: 814px; margin-left: auto; margin-right: auto;">
 	
 	<a class="fancybox" href="#product1" >
-		<img class="avatar" src="images/package/+.png" style="position: absolute; left: 40px; top: 30px;" />
-		<img class="avatar2" src="images/package/+2.png" style="position: absolute; left: 40px; top: 30px;" />
-		<img class="avatar3" src="images/package/+3.png" style="position: absolute; left: 40px; top: 30px;" />
-		<img class="avatar4" src="images/package/+4.png" style="position: absolute; left: 40px; top: 30px;" />
-		<img class="avatar5" src="images/package/+5.png" style="position: absolute; left: 40px; top: 30px;" />
-		<img class="avatar6" src="images/package/+6.png" style="position: absolute; left: 40px; top: 30px;" />
+		<img class="avatar7" src="images/package/+.png" style="position: absolute; left: 40px; top: 30px;" />
 	</a>
 	
 	
@@ -332,171 +386,161 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$(".avatar").click(function(){
 		$("div.fancybox-inner").css("overflow", "hidden");
+		$("#notify").fadeIn(10);
+		$("#notify2").fadeOut(10);
+		$("#notify3").fadeOut(10);
+		$("#notify4").fadeOut(10);
+		$("#notify5").fadeOut(10);
+		$("#notify6").fadeOut(10);
+		$("#PSA").fadeIn(10);
+		$("#PSB").fadeOut(10);
+		$("#PSC").fadeOut(10);
+		$("#PSD").fadeOut(10);
+		$("#PSE").fadeOut(10);
+		$("#PSF").fadeOut(10);
   });
+  $(".avatar2").click(function(){
+		$("div.fancybox-inner").css("overflow", "hidden");
+		$("#notify2").fadeIn(10);
+		$("#notify").fadeOut(10);
+		$("#notify3").fadeOut(10);
+		$("#notify4").fadeOut(10);
+		$("#notify5").fadeOut(10);
+		$("#notify6").fadeOut(10);
+		$("#PSB").fadeIn(10);
+		$("#PSA").fadeOut(10);
+		$("#PSC").fadeOut(10);
+		$("#PSD").fadeOut(10);
+		$("#PSE").fadeOut(10);
+		$("#PSF").fadeOut(10);
+  });
+  $(".avatar3").click(function(){
+		$("div.fancybox-inner").css("overflow", "hidden");
+		$("#notify3").fadeIn(10);
+		$("#notify").fadeOut(10);
+		$("#notify2").fadeOut(10);
+		$("#notify4").fadeOut(10);
+		$("#notify5").fadeOut(10);
+		$("#notify6").fadeOut(10);
+		$("#PSC").fadeIn(10);
+		$("#PSA").fadeOut(10);
+		$("#PSB").fadeOut(10);
+		$("#PSD").fadeOut(10);
+		$("#PSE").fadeOut(10);
+		$("#PSF").fadeOut(10);
+  });
+  $(".avatar4").click(function(){
+		$("div.fancybox-inner").css("overflow", "hidden");
+		$("#notify4").fadeIn(10);
+		$("#notify").fadeOut(10);
+		$("#notify2").fadeOut(10);
+		$("#notify3").fadeOut(10);
+		$("#notify5").fadeOut(10);
+		$("#notify6").fadeOut(10);
+		$("#PSD").fadeIn(10);
+		$("#PSA").fadeOut(10);
+		$("#PSB").fadeOut(10);
+		$("#PSC").fadeOut(10);
+		$("#PSE").fadeOut(10);
+		$("#PSF").fadeOut(10);
+  });
+  $(".avatar5").click(function(){
+		$("div.fancybox-inner").css("overflow", "hidden");
+		$("#notify5").fadeIn(10);
+		$("#notify").fadeOut(10);
+		$("#notify2").fadeOut(10);
+		$("#notify3").fadeOut(10);
+		$("#notify4").fadeOut(10);
+		$("#notify6").fadeOut(10);
+		$("#PSE").fadeIn(10);
+		$("#PSA").fadeOut(10);
+		$("#PSB").fadeOut(10);
+		$("#PSC").fadeOut(10);
+		$("#PSD").fadeOut(10);
+		$("#PSF").fadeOut(10);
+  });
+  $(".avatar6").click(function(){
+		$("div.fancybox-inner").css("overflow", "hidden");
+		$("#notify6").fadeIn(10);
+		$("#notify").fadeOut(10);
+		$("#notify2").fadeOut(10);
+		$("#notify3").fadeOut(10);
+		$("#notify4").fadeOut(10);
+		$("#notify5").fadeOut(10);
+		$("#PSF").fadeIn(10);
+		$("#PSA").fadeOut(10);
+		$("#PSB").fadeOut(10);
+		$("#PSC").fadeOut(10);
+		$("#PSD").fadeOut(10);
+		$("#PSE").fadeOut(10);
+	});
 });
 
 
 </script>
 
-<script type="text/javascript">
+<script>
 $(document).ready(function(){
-	$("#forward").click(function(){
-		$("#pack2").fadeIn(10);
-		$("#back").fadeIn(10);
-		$("#forward2").fadeIn(10);
-		$("#forward").fadeOut(10);
-		$("#pack1").fadeOut(10);
-		
-	});
-});
-$(document).ready(function(){
-	$("#forward2").click(function(){
-		$("#pack3").fadeIn(10);
-		$("#back2").fadeIn(10);
-		$("#forward3").fadeIn(10);
-		$("#back").fadeOut(10);
-		$("#forward2").fadeOut(10);
-		$("#pack2").fadeOut(10);
-		
-	});
-});
-$(document).ready(function(){
-	$("#forward3").click(function(){
-		$("#pack4").fadeIn(10);
-		$("#back3").fadeIn(10);
-		$("#forward4").fadeIn(10);
-		$("#back2").fadeOut(10);
-		$("#pack3").fadeOut(10);
-		$("#forward3").fadeOut(10);
-		$("#pack3").fadeOut(10);
-		
-	});
-});
-$(document).ready(function(){
-	$("#forward4").click(function(){
-		$("#pack5").fadeIn(10);
-		$("#back4").fadeIn(10);
-		$("#forward5").fadeIn(10);
-		$("#back3").fadeOut(10);
-		$("#forward").fadeOut(10);
-		$("#forward2").fadeOut(10);
-		$("#forward3").fadeOut(10);
-		$("#forward4").fadeOut(10);
-		$("#pack1").fadeOut(10);
-		$("#pack2").fadeOut(10);
-		$("#back3").fadeOut(10);
-		$("#pack4").fadeOut(10);
-		$("#pack6").fadeOut(10);
-		
-	});
-});
-$(document).ready(function(){
-	$("#forward5").click(function(){
-		$("#pack6").fadeIn(10);
-		$("#back5").fadeIn(10);
-		$("#back4").fadeOut(10);
-		$("#forward").fadeOut(10);
-		$("#forward2").fadeOut(10);
-		$("#forward3").fadeOut(10);
-		$("#forward4").fadeOut(10);
-		$("#forward5").fadeOut(10);
-		$("#pack1").fadeOut(10);
-		$("#pack2").fadeOut(10);
-		$("#pack3").fadeOut(10);
-		$("#pack4").fadeOut(10);
-		$("#pack5").fadeOut(10);
-		
-	});
-});
-$(document).ready(function(){
-	$("#back5").click(function(){
-		$("#pack5").fadeIn(10);
-		$("#back4").fadeIn(10);
-		$("#forward5").fadeIn(10);
-		$("#forward").fadeOut(10);
-		$("#forward2").fadeOut(10);
-		$("#forward3").fadeOut(10);
-		$("#forward4").fadeOut(10);
-		$("#back5").fadeOut(10);
-		$("#pack1").fadeOut(10);
-		$("#pack2").fadeOut(10);
-		$("#pack3").fadeOut(10);
-		$("#pack4").fadeOut(10);
-		$("#pack6").fadeOut(10);
-	});
-});
-$(document).ready(function(){
-	$("#back4").click(function(){
-		$("#pack4").fadeIn(10);
-		$("#back3").fadeIn(10);
-		$("#forward4").fadeIn(10);
-		$("#back4").fadeOut(10);
-		$("#forward").fadeOut(10);
-		$("#forward2").fadeOut(10);
-		$("#forward3").fadeOut(10);
-		$("#forward5").fadeOut(10);
-		$("#pack1").fadeOut(10);
-		$("#pack2").fadeOut(10);
-		$("#pack3").fadeOut(10);
-		$("#pack5").fadeOut(10);
-		$("#pack6").fadeOut(10);
-	});
-});
-$(document).ready(function(){
-	$("#back3").click(function(){
-		$("#pack3").fadeIn(10);
-		$("#back2").fadeIn(10);
-		$("#forward3").fadeIn(10);
-		$("#back3").fadeOut(10);
-		$("#forward").fadeOut(10);
-		$("#forward2").fadeOut(10);
-		$("#forward4").fadeOut(10);
-		$("#forward5").fadeOut(10);
-		$("#pack1").fadeOut(10);
-		$("#pack2").fadeOut(10);
-		$("#pack4").fadeOut(10);
-		$("#pack5").fadeOut(10);
-		$("#pack6").fadeOut(10);
-	});
-});
-$(document).ready(function(){
-	$("#back2").click(function(){
-		$("#pack2").fadeIn(10);
-		$("#back").fadeIn(10);
-		$("#forward2").fadeIn(10);
-		$("#back3").fadeOut(10);
-		$("#back2").fadeOut(10);
-		$("#forward").fadeOut(10);
-		$("#forward3").fadeOut(10);
-		$("#forward4").fadeOut(10);
-		$("#forward5").fadeOut(10);
-		$("#pack1").fadeOut(10);
-		$("#pack3").fadeOut(10);
-		$("#pack4").fadeOut(10);
-		$("#pack5").fadeOut(10);
-		$("#pack6").fadeOut(10);
-	});
-});
-$(document).ready(function(){
-	$("#back").click(function(){
-		$("#pack1").fadeIn(10);
-		$("#forward").fadeIn(10);
-		$("#forward2").fadeOut(10);
-		$("#forward3").fadeOut(10);
-		$("#forward4").fadeOut(10);
-		$("#forward5").fadeOut(10);
-		$("#back").fadeOut(10);
-		$("#pack2").fadeOut(10);
-		$("#pack3").fadeOut(10);
-		$("#pack4").fadeOut(10);
-		$("#pack5").fadeOut(10);
-		$("#pack6").fadeOut(10);
-	});
-$("#notify").click(function(){
+	$("#notify").click(function(){
 		var ordertext = document.getElementById('ordertext');
 		
 		ordertext.value="I am interested in \n" +
 						$('#notify').attr('alt');
+		
+		$("#popupnotify").show();
+		
+		
+	});
+	
+	$("#notify2").click(function(){
+		var ordertext = document.getElementById('ordertext');
+		
+		ordertext.value="I am interested in \n" +
+						$('#notify2').attr('alt');
+		
+		$("#popupnotify").show();
+		
+		
+	});
+	
+	$("#notify3").click(function(){
+		var ordertext = document.getElementById('ordertext');
+		
+		ordertext.value="I am interested in \n" +
+						$('#notify3').attr('alt');
+		
+		$("#popupnotify").show();
+		
+		
+	});
+	
+	$("#notify4").click(function(){
+		var ordertext = document.getElementById('ordertext');
+		
+		ordertext.value="I am interested in \n" +
+						$('#notify4').attr('alt');
+		
+		$("#popupnotify").show();
+		
+		
+	});
+	
+	$("#notify5").click(function(){
+		var ordertext = document.getElementById('ordertext');
+		
+		ordertext.value="I am interested in \n" +
+						$('#notify5').attr('alt');
+		
+		$("#popupnotify").show();
+		
+		
+	});
+	
+	$("#notify6").click(function(){
+		var ordertext = document.getElementById('ordertext');
+		
+		ordertext.value="I am interested in \n" +
+						$('#notify6').attr('alt');
 		
 		$("#popupnotify").show();
 		
@@ -517,6 +561,222 @@ $("#notify").click(function(){
 function hidediv() {
 		$("#popupnotify").hide();
 }
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#forward").click(function(){
+		$("#pack2").fadeIn(10);
+		$("#pack1").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+		$("#back").fadeIn(10);
+		$("#back2").fadeOut(10);
+		$("#back3").fadeOut(10);
+		$("#back4").fadeOut(10);
+		$("#back5").fadeOut(10);
+		$("#forward2").fadeIn(10);
+		$("#forward").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$(".avatar2").fadeIn(10);
+		$(".avatar").fadeOut(10);
+		
+		
+	});
+});
+$(document).ready(function(){
+	$("#forward2").click(function(){
+		$("#pack3").fadeIn(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+		$("#back2").fadeIn(10);
+		$("#back").fadeOut(10);
+		$("#back3").fadeOut(10);
+		$("#back4").fadeOut(10);
+		$("#back5").fadeOut(10);
+		$("#forward3").fadeIn(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$(".avatar3").fadeIn(10);
+		$(".avatar2").fadeOut(10);
+		
+	});
+});
+$(document).ready(function(){
+	$("#forward3").click(function(){
+		$("#pack4").fadeIn(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+		$("#back3").fadeIn(10);
+		$("#back").fadeOut(10);
+		$("#back2").fadeOut(10);
+		$("#back4").fadeOut(10);
+		$("#back5").fadeOut(10);
+		$("#forward4").fadeIn(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$(".avatar4").fadeIn(10);
+		$(".avatar3").fadeOut(10);
+		
+	});
+});
+$(document).ready(function(){
+	$("#forward4").click(function(){
+		$("#pack5").fadeIn(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack6").fadeOut(10);
+		$("#back4").fadeIn(10);
+		$("#back").fadeOut(10);
+		$("#back2").fadeOut(10);
+		$("#back3").fadeOut(10);
+		$("#back5").fadeOut(10);
+		$("#forward5").fadeIn(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$(".avatar5").fadeIn(10);
+		$(".avatar4").fadeOut(10);
+		
+	});
+});
+$(document).ready(function(){
+	$("#forward5").click(function(){
+		$("#pack6").fadeIn(10);
+		$("#back5").fadeIn(10);
+		$("#back4").fadeOut(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$(".avatar6").fadeIn(10);
+		$(".avata5").fadeOut(10);
+		
+	});
+});
+$(document).ready(function(){
+	$("#back5").click(function(){
+		$("#pack5").fadeIn(10);
+		$("#back4").fadeIn(10);
+		$("#forward5").fadeIn(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#back5").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack6").fadeOut(10);
+		$(".avatar5").fadeIn(10);
+		$(".avatar6").fadeOut(10);
+	});
+});
+$(document).ready(function(){
+	$("#back4").click(function(){
+		$("#pack4").fadeIn(10);
+		$("#back3").fadeIn(10);
+		$("#forward4").fadeIn(10);
+		$("#back4").fadeOut(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+		$(".avatar4").fadeIn(10);
+		$(".avatar5").fadeOut(10);
+	});
+});
+$(document).ready(function(){
+	$("#back3").click(function(){
+		$("#pack3").fadeIn(10);
+		$("#back2").fadeIn(10);
+		$("#forward3").fadeIn(10);
+		$("#back3").fadeOut(10);
+		$("#forward").fadeOut(10);
+		$("#forward2").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$("#pack1").fadeOut(10);
+		$("#pack2").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+		$(".avatar3").fadeIn(10);
+		$(".avatar4").fadeOut(10);
+	});
+});
+$(document).ready(function(){
+	$("#back2").click(function(){
+		$("#pack2").fadeIn(10);
+		$("#pack1").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+		$("#back").fadeIn(10);
+		$("#back2").fadeOut(10);
+		$("#back3").fadeOut(10);
+		$("#back4").fadeOut(10);
+		$("#back5").fadeOut(10);
+		$("#forward2").fadeIn(10);
+		$("#forward").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$(".avatar2").fadeIn(10);
+		$(".avatar3").fadeOut(10);
+	});
+});
+$(document).ready(function(){
+	$("#back").click(function(){
+		$("#pack1").fadeIn(10);
+		$("#pack2").fadeOut(10);
+		$("#pack3").fadeOut(10);
+		$("#pack4").fadeOut(10);
+		$("#pack5").fadeOut(10);
+		$("#pack6").fadeOut(10);
+		$("#forward").fadeIn(10);
+		$("#forward2").fadeOut(10);
+		$("#forward3").fadeOut(10);
+		$("#forward4").fadeOut(10);
+		$("#forward5").fadeOut(10);
+		$("#back").fadeOut(10);
+		$("#back2").fadeOut(10);
+		$("#back3").fadeOut(10);
+		$("#back4").fadeOut(10);
+		$("#back5").fadeOut(10);
+		$(".avatar").fadeIn(10);
+		$(".avatar2").fadeOut(10);
+	});
 });
 
 
