@@ -68,6 +68,7 @@
 #pack12 {
 	display: none;
 }
+
 #forward2 {
 	display: none;
 }
@@ -92,6 +93,8 @@
 #forward11 {
 	display: none;
 }
+
+
 #back {
 	display: none;
 }
@@ -123,9 +126,8 @@
 	display: none;
 }
 
-#pack2plus {
-	display: none;
-}
+
+
 
 #PSB {
 	display: none;
@@ -142,22 +144,6 @@
 #PSF {
 	display: none;
 }
-#PSG {
-	display: none;
-}
-#PSH {
-	display: none;
-}
-#PSI {
-	display: none;
-}
-#PSJ {
-	display: none;
-}
-#PSK {
-	display: none;
-}
-
 #notify2 {
 	display: none;
 }
@@ -173,21 +159,6 @@
 #notify6 {
 	display: none;
 }
-#notify7 {
-	display: none;
-}
-#notify8 {
-	display: none;
-}
-#notify9 {
-	display: none;
-}
-#notify10 {
-	display: none;
-}
-#notify11 {
-	display: none;
-}
 .avatar2 {
 	display: none;
 }
@@ -201,21 +172,6 @@
 	display: none;
 }
 .avatar6 {
-	display: none;
-}
-.avatar8 {
-	display: none;
-}
-.avatar9 {
-	display: none;
-}
-.avatar10 {
-	display: none;
-}
-.avatar11 {
-	display: none;
-}
-.avatar12 {
 	display: none;
 }
 
@@ -418,7 +374,7 @@
 	
     <div class='item cols-2_red rows-2' style="background: url(images/package/PackageBox.png) no-repeat; width: 814px; margin-left: auto; margin-right: auto;">
 	
-	<a class="fancybox" href="#product2" >
+	<a class="fancybox" href="#product1" >
 		<img class="avatar7" src="images/package/+7.png" style="position: absolute; left: 40px; top: 30px;" />
 		<img class="avatar8" src="images/package/+8.png" style="position: absolute; left: 40px; top: 30px;" />
 		<img class="avatar9" src="images/package/+9.png" style="position: absolute; left: 40px; top: 30px;" />
@@ -454,21 +410,16 @@
 	<img id="share" src="images/package/Share.png" style="position: absolute; left: 744px; top: 226px;" />
 	<label id="PackagePrice" style="position: absolute; left: 608px; top: 102px; font-family: 'Calibri'; font-size: 20px; color: white;" >Package Price</label>
 	<label id="Php" style="position: absolute; left: 608px; top: 134px; font-family: 'Calibri'; font-size: 34px; color: white;" >Php 16,999</label>
-
+	
 
  
     </div>
     <!----->
-    <div id="product2" class="product" style="width: 814px; height: 680px; display: none; padding-left: 176px; padding-top: 117px; background: url(images/package/popup/PopUpbox.png) no-repeat; margin-left: auto; margin-right: auto;"> 
+    <div id="product1" class="product" style="width: 814px; height: 680px; display: none; padding-left: 176px; padding-top: 117px; background: url(images/package/PopUpbox.png) no-repeat; margin-left: auto; margin-right: auto;"> 
     					<!--<img src="images/PopUpbox.png">-->
-						<img src="images/package/4b2.png" style="position: relative; margin-left: auto; margin-right: auto; ">
-						<img src="images/header/Arrow icon logo2.png" style="position: absolute; top: 50px; left: 65px;" />
-						<h4 id="PSG" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set A plus </h4><img id="notify7" src="images/package/popup/cart7.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set A plus" /> 
-						<h4 id="PSH" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set B plus </h4><img id="notify8" src="images/package/popup/cart8.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set B plus" /> 
-						<h4 id="PSI" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set C plus </h4><img id="notify9" src="images/package/popup/cart9.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set C plus" /> 
-						<h4 id="PSJ" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set D plus </h4><img id="notify10" src="images/package/popup/cart10.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set D plus" /> 
-						<h4 id="PSK" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set E plus </h4><img id="notify11" src="images/package/popup/cart11.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set E plus" /> 
-						<h4 id="PSL" style="position: absolute;top: 32px; left: 130px; font-size: 20px;" >Package Set F plus </h4><img id="notify12" src="images/package/popup/cart12.png" style="position: absolute; top: 70px; left: 711px; " alt="Package Set F plus" /> 
+						<img src="images/package/popup/1b2.png" style="position: relative; margin-left: auto; margin-right: auto; ">
+						<img id="minus" src="images/package/popup/-.png" style="position: absolute; top: 50px; left: 65px;" />
+						<img src="images/package/popup/cart (circle).png" style="position: absolute; top: 70px; left: 711px;" /> 
 						<img src="images/package/popup/heart circle.png" style="position: absolute; top: 110px; left: 707px;" />
 						<img src="images/package/popup/share circle.png" style="position: absolute; top: 150px; left: 712px;" />
     </div>
@@ -589,7 +540,6 @@ $(document).ready(function(){
 		$("#PSE").fadeOut(10);
 	});
 });
-
 $(document).ready(function(){
 	$(".avatar7").click(function(){
 		$("div.fancybox-inner").css("overflow", "hidden");
@@ -682,6 +632,8 @@ $(document).ready(function(){
 		$("#PSJ").fadeOut(10);
   });
 });
+
+
 
 </script>
 
@@ -1050,6 +1002,7 @@ $(document).ready(function(){
 		$(".avatar2").fadeOut(10);
 	});
 });
+
 $(document).ready(function(){
 	$("#forward7").click(function(){
 		$("#pack8").fadeIn(10);
@@ -1070,10 +1023,7 @@ $(document).ready(function(){
 		$("#forward11").fadeOut(10);
 		$(".avatar8").fadeIn(10);
 		$(".avatar7").fadeOut(10);
-		$(".avatar9").fadeOut(10);
-		$(".avatar10").fadeOut(10);
-		$(".avatar11").fadeOut(10);
-		$(".avatar12").fadeOut(10);
+		
 		
 	});
 });
@@ -1097,11 +1047,7 @@ $(document).ready(function(){
 		$("#forward10").fadeOut(10);
 		$("#forward11").fadeOut(10);
 		$(".avatar9").fadeIn(10);
-		$(".avatar7").fadeOut(10);
 		$(".avatar8").fadeOut(10);
-		$(".avatar10").fadeOut(10);
-		$(".avatar11").fadeOut(10);
-		$(".avatar12").fadeOut(10);
 		
 		
 	});
@@ -1126,11 +1072,7 @@ $(document).ready(function(){
 		$("#forward9").fadeOut(10);
 		$("#forward11").fadeOut(10);
 		$(".avatar10").fadeIn(10);
-		$(".avatar7").fadeOut(10);
 		$(".avatar9").fadeOut(10);
-		$(".avatar8").fadeOut(10);
-		$(".avatar11").fadeOut(10);
-		$(".avatar12").fadeOut(10);
 	});
 });
 
@@ -1153,11 +1095,7 @@ $(document).ready(function(){
 		$("#forward9").fadeOut(10);
 		$("#forward10").fadeOut(10);
 		$(".avatar11").fadeIn(10);
-		$(".avatar7").fadeOut(10);
-		$(".avatar9").fadeOut(10);
-		$(".avatar8").fadeOut(10);
 		$(".avatar10").fadeOut(10);
-		$(".avatar12").fadeOut(10);
 	});
 });
 
@@ -1180,11 +1118,7 @@ $(document).ready(function(){
 		$("#forward9").fadeOut(10);
 		$("#forward10").fadeOut(10);
 		$(".avatar12").fadeIn(10);
-		$(".avatar7").fadeOut(10);
-		$(".avatar9").fadeOut(10);
-		$(".avatar8").fadeOut(10);
 		$(".avatar11").fadeOut(10);
-		$(".avatar10").fadeOut(10);
 	});
 });
 
@@ -1201,17 +1135,13 @@ $(document).ready(function(){
 		$("#forward9").fadeOut(10);
 		$("#forward10").fadeOut(10);
 		$("#forward11").fadeOut(10);
+		$("#back6").fadeIn(10);
 		$("#back8").fadeOut(10);
-		$("#back7").fadeOut(10);
 		$("#back9").fadeOut(10);
 		$("#back10").fadeOut(10);
 		$("#back11").fadeOut(10);
 		$(".avatar7").fadeIn(10);
-		$(".avatar10").fadeOut(10);
-		$(".avatar9").fadeOut(10);
 		$(".avatar8").fadeOut(10);
-		$(".avatar11").fadeOut(10);
-		$(".avatar12").fadeOut(10);
 	});
 });
 $(document).ready(function(){
@@ -1233,11 +1163,7 @@ $(document).ready(function(){
 		$("#back10").fadeOut(10);
 		$("#back11").fadeOut(10);
 		$(".avatar8").fadeIn(10);
-		$(".avatar7").fadeOut(10);
 		$(".avatar9").fadeOut(10);
-		$(".avatar10").fadeOut(10);
-		$(".avatar11").fadeOut(10);
-		$(".avatar12").fadeOut(10);
 	});
 });
 $(document).ready(function(){
@@ -1258,12 +1184,8 @@ $(document).ready(function(){
 		$("#back9").fadeOut(10);
 		$("#back10").fadeOut(10);
 		$("#back11").fadeOut(10);
-		$(".avatar9").fadeIn(10);
-		$(".avatar7").fadeOut(10);
-		$(".avatar8").fadeOut(10);
-		$(".avatar10").fadeOut(10);
-		$(".avatar11").fadeOut(10);
-		$(".avatar12").fadeOut(10);
+		$(".avatar8").fadeIn(10);
+		$(".avatar9").fadeOut(10);
 	});
 });
 $(document).ready(function(){
@@ -1284,12 +1206,8 @@ $(document).ready(function(){
 		$("#back8").fadeOut(10);
 		$("#back10").fadeOut(10);
 		$("#back11").fadeOut(10);
-		$(".avatar10").fadeIn(10);
-		$(".avatar7").fadeOut(10);
-		$(".avatar9").fadeOut(10);
-		$(".avatar8").fadeOut(10);
-		$(".avatar11").fadeOut(10);
-		$(".avatar12").fadeOut(10);
+		$(".avatar9").fadeIn(10);
+		$(".avatar10").fadeOut(10);
 	});
 });
 $(document).ready(function(){
@@ -1310,12 +1228,8 @@ $(document).ready(function(){
 		$("#back8").fadeOut(10);
 		$("#back9").fadeOut(10);
 		$("#back11").fadeOut(10);
-		$(".avatar11").fadeIn(10);
-		$(".avatar7").fadeOut(10);
-		$(".avatar9").fadeOut(10);
-		$(".avatar8").fadeOut(10);
-		$(".avatar10").fadeOut(10);
-		$(".avatar12").fadeOut(10);
+		$(".avatar10").fadeIn(10);
+		$(".avatar11").fadeOut(10);
 	});
 });
 
