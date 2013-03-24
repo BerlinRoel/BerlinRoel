@@ -185,7 +185,7 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 
 	<div   style="border: solid 1px gray; width: 500px; height: 296px; border-radius: 5px; position: absolute; top: 50%; left: 50%; margin-top: -190px; margin-left: -250px;  background: red; " >
 		<div id="form-div" style="width: 500px; margin-top: 35px;"  >
-			<form class="form" id="form1" method="post"  name="form" action="mailer-contact2.php"  onreset="removeVal()" onsubmit="alert('Thank you for showing interest on Arrow products.');">
+			<form class="form" id="form1" method="post"  name="form" action="mailer-contact2.php"  onreset="removeVal()" onsubmit="return validateform(); ">
 				
 				
 					
@@ -711,6 +711,27 @@ $(document).ready(function(){
 
 function hidediv() {
 		$("#popupnotify").hide();
+}
+
+
+function validateform() {
+	var name = document.getElementById('name');
+	var number = document.getElementById('number');
+	var email = document.getElementById('email');
+
+	if ( name.value == '' ) {
+		alert('Please input your name');
+		return false;
+	}
+
+	if ( number.value == '' ) {
+		alert('Please input your contact number');
+		return false;
+	}
+
+	alert('Thank you for showing interest on Arrow products.');
+	return true;
+	
 }
 
 $(document).ready(function(){
