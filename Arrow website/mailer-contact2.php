@@ -1,6 +1,6 @@
 <?PHP 
 
-$to = "tplberzbay@gmail.com; cokarlene@gmail.com; roelmargarejo@gmail.com";
+$to = "tplberzbay@gmail.com; roelmargarejo@gmail.com; berzbay03@yahoo.com; roel_mar@yahoo.com";
 //$to = "giselle.saldaga@gmail.com";
 $subject = "ARROW";
 $headers = "From: Form Mailer";

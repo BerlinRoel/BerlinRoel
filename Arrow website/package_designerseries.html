@@ -353,8 +353,8 @@ jkmegamenu.definemenu("megaanchor", "megamenu1", "mouseover")
 							</td>
 						</tr>					
 						<tr>
-							<td><span id="toileticon"><img src="images/DesignSeries/toileticon.png" style=""  ></span>
-                            	<span id="toileticonbig"><img src="images/DesignSeries/toileticon_big.png" style=""  ></span>
+							<td><span ><img id="toileticon" src="images/DesignSeries/toileticon.png" style=""  ></span>
+                            	<!--<span id="toileticonbig"><img src="images/DesignSeries/toileticon_big.png" style=""  ></span>-->
 							</td>
 							<td>
 								<h6 style="position: absolute;top: 405px; left: 80px; font-size: 10px; color: white" >Design Series </h6>
@@ -797,20 +797,24 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$('#toileticon').hover(function() {
-		$('#toileticonbig').show();
-		$('#toileticon').hide();
+		$(this).attr('src', 'images/DesignSeries/toileticon_big.png');
+//		$('#toileticon').hide();
 		}, function() {
-		$('#toileticonbig').hide();
-		$('#toileticonbig').hide();
+		$(this).attr('src', 'images/DesignSeries/toileticon.png');
+//		$('#toileticonbig').hide();
+//		$('#toileticon').show();
+		
+//		$('#toileticonbig').hide();
+//		$('#toileticonbig').hide();
 	});
 
-	$('#toileticonbig').hover(function() {
-		$('#toileticonbig').show();
-		}, function() {
-		$('#toileticon').hide();
-		$('#toileticonbig').hide();
-		$('#toileticon').show();
-	});	
+//	$('#toileticonbig').hover(function() {
+//		$('#toileticonbig').show();
+//		}, function() {
+//		$('#toileticon').hide();
+//		$('#toileticonbig').hide();
+//		$('#toileticon').show();
+//	});	
 });
 
 $(document).ready(function(){
